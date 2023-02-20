@@ -1,8 +1,8 @@
 <configs>
 	<append xpath="/blocks">
 
-		<block name="industrialgenerator">
-			<property name="CustomIcon" value="industrial_generator" />
+		<block name="industrialGenerator">
+			<property name="CustomIcon" value="industrialGenerator" />
 			<property name="CustomIconTint" value="85c47c" />
 			<property name="TintColor" value="85c47c" />
 			<property name="CreativeMode" value="Player" />
@@ -12,18 +12,18 @@
 			<property name="Material" value="Mmetal_medium" />
 			<property name="StabilitySupport" value="false" />
 			<property name="Shape" value="ModelEntity" />
-			<property name="Mesh" value="#@modfolder:Resources/ScoutDrone.unity3d?Drone" />  <!-- fix this -->
+			<property name="Mesh" value="#@modfolder:Resources/industrial_generator.unity3d" />  <!-- fix this -->
 			<property name="Path" value="solid" />
 			<property name="Model" value="Entities/Electrical/generatorPrefab" />
 			<property name="HandleFace" value="Bottom" />
 			<property name="ImposterDontBlock" value="true" />
 			<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
-			<property name="DescriptionKey" value="MilitaryGeneratorDesc" />
+			<property name="DescriptionKey" value="industrialGeneratorDesc" />
 			<property name="MaxFuel" value="10000" />
 			<property name="OutputPerFuel" value="11250" />
 			<property name="MaxPower" value="12250" />
 			<property name="OutputPerStack" value="400" />
-			<property name="SlotItem" value="MilitarySmallEngine" />
+			<property name="SlotItem" value="smallEngine" />
 			<property name="Group" value="Science" />
 			<property class="RepairItems">
 				<property name="resourceForgedIron" value="8" />
