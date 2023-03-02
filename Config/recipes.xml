@@ -1,0 +1,9 @@
+<configs>
+    <append xpath="/recipes">
+    	<recipe name="industrialGenerator" count="1" craft_time="600" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>
+    </append>
+</configs>

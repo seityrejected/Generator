@@ -1,0 +1,13 @@
+<configs>
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
+        <item name="industrialGeneratorSchematic"/>
+    </append>
+    <append xpath="lootcontainers/lootgroup[@name='groupQuestTools']">
+        <item name="industrialGenerator" loot_prob_template="GradeCLoot"/>
+    </append>
+    <append xpath="lootcontainers/lootgroup[@name='groupWorkingStiffs03']">
+        <item name="industrialGenerator"/>
+	</append>
+
+</configs>

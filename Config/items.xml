@@ -1,0 +1,16 @@
+<configs>
+
+	<append xpath="items">
+
+		<item name="industrialGeneratorSchematic">
+		  <property name="Extends" value="schematicMaster"/>
+		  <property name="CreativeMode" value="Player"/>
+		  <property name="CustomIcon" value="ScoutDrone"/>
+		  <property name="Unlocks" value="ScoutDrone"/>
+		  <effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="industrialGenerator" operation="set" value="1" />
+		  </effect_group>
+		</item>
+	</append>	
+
+</configs>

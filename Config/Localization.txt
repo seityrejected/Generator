@@ -1,0 +1,4 @@
+Key,Source,Context,english
+
+industrialGenerator,blocks,Industrial Generator, Industrial Generator
+industrialGeneratorDesc,blocks,Industrial Generator,High end Industrial Generator
