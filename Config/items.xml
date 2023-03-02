@@ -5,8 +5,8 @@
 		<item name="industrialGeneratorSchematic">
 		  <property name="Extends" value="schematicMaster"/>
 		  <property name="CreativeMode" value="Player"/>
-		  <property name="CustomIcon" value="ScoutDrone"/>
-		  <property name="Unlocks" value="ScoutDrone"/>
+		  <property name="CustomIcon" value="questGeneratorLarge"/>
+		  <property name="Unlocks" value="questGeneratorLarge"/>
 		  <effect_group tiered="false">
 			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="industrialGenerator" operation="set" value="1" />
 		  </effect_group>
